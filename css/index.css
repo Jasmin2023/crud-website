@@ -1,0 +1,101 @@
+html,
+body {
+  height: 100%;
+  font-family: "Hubballi", cursive;
+}
+.login-container,
+.add-container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+.btn {
+  color: #fff;
+  margin-right: 5px;
+}
+.btn:hover {
+  color: #fff;
+}
+.table-responsive {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.add-container {
+  display: none;
+}
+#add-user-form {
+  max-width: 50%;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+}
+#add-user-form .form-control {
+  max-width: unset;
+}
+#table-section {
+  padding: 30px 0;
+}
+#login-section {
+  border-radius: 5px;
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.login-content {
+  border: 1px solid #e3e3e3;
+  padding: 20px;
+}
+@media screen and (max-width: 800px) {
+  #login-section {
+    width: 100%;
+  }
+}
+.add-user-content {
+  padding: 20px 0;
+  text-align: right;
+  color: #333;
+}
+.add-user-content a {
+  color: #333;
+  margin: 0;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-left: 3px;
+}
+.container1 {
+  padding: 30px 0;
+}
+.back-btn-container {
+  padding-top: 30px;
+}
+.container1 table,
+.container2 table {
+  max-width: 95%;
+  margin: 0 auto;
+}
+.title {
+  padding-left: 25px;
+}
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #7e7e7e;
+  background-color: #c1c9d5;
+  border: 0;
+}
+.form-control {
+  max-width: 200px;
+}
+.bg-mynav {
+  background-color: #6c757d;
+}
+
+body {
+  background-color: #f6f8fa;
+}
+
+td {
+  line-height: 3rem;
+}
